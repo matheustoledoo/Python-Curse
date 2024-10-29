@@ -22,7 +22,7 @@ class Pessoa: # classe pai
 class Estudante(Pessoa): 
     def __init__(self, nome, idade, curso):
         # Chama o construtor da classe pai (Pessoa)
-        super().__init__(nome, idade)
+        super().__init__(nome, idade) #super() para chamar o construtor da classe pai
         
         # Variável pública específica da classe Estudante
         self.curso = curso
