@@ -33,7 +33,7 @@ print(type("hello")) # str
 
 name = 'matheus'
 
-print("hi {name}, how are u?")
+print(f"hi {name}, how are u?")
 
 # string index
 
