@@ -16,3 +16,14 @@ player1 = PlayerCharacter('matheus', 18) #instanciação
 
 print(player1.name)
 print(player1.membership)
+
+class Teste:
+  def __init__(self, isPeople):
+     self.isPeople = isPeople
+
+  def scream(self):
+    print('aaaa')
+
+
+matheus = Teste(True)
+matheus.scream()

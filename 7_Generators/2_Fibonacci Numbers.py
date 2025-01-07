@@ -11,5 +11,5 @@ def fib(number):
         b = temp + b
 
 
-for x in fib(100000):
+for x in fib(10000000):
     print(x)
