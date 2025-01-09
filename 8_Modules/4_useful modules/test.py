@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-categories = ['quantidade de quanto o thiago é otario']
-value = [100]
+categories = ['qnt 1', 'qnt 2', 'qnt 3']
+value = [100, 50, 30]
 
 plt.bar(categories, value)
 
